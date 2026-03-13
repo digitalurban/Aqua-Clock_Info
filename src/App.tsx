@@ -28,7 +28,7 @@ export default function App() {
                 className="absolute rounded-full border border-white/40 bg-white/20 backdrop-blur-sm"
                 style={{ width: size, height: size }}
                 initial={{ 
-                  y: '110vh', 
+                  y: `${Math.random() * 120 - 10}vh`, 
                   x: `${Math.random() * 100}vw`,
                   opacity: Math.random() * 0.6 + 0.2
                 }}
@@ -40,7 +40,7 @@ export default function App() {
                   duration: Math.random() * 15 + 10,
                   repeat: Infinity,
                   ease: "linear",
-                  delay: Math.random() * 20
+                  delay: 0
                 }}
               />
             );
