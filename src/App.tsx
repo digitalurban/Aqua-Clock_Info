@@ -52,7 +52,7 @@ export default function App() {
       <nav className="relative z-10 flex items-center justify-between px-6 py-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl shadow-lg shadow-orange-500/20 overflow-hidden shrink-0">
-            <img src={`${import.meta.env.BASE_URL}icon.png`} alt="AquaClock Icon" className="w-full h-full object-cover" />
+          <img src={iconImg} alt="AquaClock Icon" className="w-full h-full object-cover" />
           </div>
           <span className="text-xl font-medium tracking-tight">AquaClock</span>
         </div>
@@ -102,7 +102,7 @@ export default function App() {
               
               {/* Screen Content */}
               <div className="w-full h-full bg-[#005c99] relative overflow-hidden">
-                <img src={`${import.meta.env.BASE_URL}iphonelandscape.png`} alt="AquaClock on iPhone Landscape" className="w-full h-full object-cover" />
+                <img src={iphoneLandscapeImg} alt="AquaClock on iPhone Landscape" className="w-full h-full object-cover" /> alt="AquaClock on iPhone Landscape" className="w-full h-full object-cover" />
               </div>
               
               {/* Inner Shadow for depth */}
@@ -186,7 +186,7 @@ export default function App() {
                 <div className="relative aspect-[4/3] bg-black rounded-[32px] shadow-2xl shadow-blue-900/20 border-[6px] border-[#1a1a24] overflow-hidden">
                   {/* Screen Content */}
                   <div className="w-full h-full bg-[#005c99] relative overflow-hidden">
-                    <img src={`${import.meta.env.BASE_URL}ipad-screenshot.png`} alt="AquaClock on iPad" className="w-full h-full object-cover" />
+                    <img src={ipadScreenshotImg} alt="AquaClock on iPad" className="w-full h-full object-cover" />
                   </div>
                 </div>
                 
@@ -239,7 +239,7 @@ export default function App() {
             <div>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-8 h-8 rounded-lg shadow-lg shadow-orange-500/20 overflow-hidden shrink-0">
-                  <img src={`${import.meta.env.BASE_URL}icon.png`} alt="AquaClock Icon" className="w-full h-full object-cover" />
+                 <img src={iconImg} alt="AquaClock Icon" className="w-full h-full object-cover" />
                 </div>
                 <span className="text-lg font-medium tracking-tight">AquaClock</span>
               </div>
